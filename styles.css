@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f5f5fb;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 24px 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.site-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #4b4a7a;
+}
+
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #6b6a96;
+  padding: 6px 10px;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+  background: #ebe9ff;
+  color: #403f6f;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  color: #3c3b66;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 18px 0 8px;
+  color: #4c4b7a;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin: 12px 0 6px;
+  color: #5c5b8c;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.tagline {
+  margin-bottom: 18px;
+  font-size: 0.98rem;
+  color: #686787;
+}
+
+section {
+  margin-bottom: 26px;
+}
+
+img {
+  max-width: 40%;
+  border-radius: 16px;
+  margin: 8px 16px 8px 0;
+}
+
+/* Обтекание разных типов */
+.img-left {
+  float: left;
+}
+
+.img-right {
+  float: right;
+}
+
+.img-none {
+  display: block;
+  margin: 12px auto;
+  float: none;
+}
+
+/* Очистка обтекания */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Таблица */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+th {
+  background: #f1eefe;
+  color: #403f6f;
+}
+
+/* Списки */
+ul, ol {
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+.anchor-menu a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+/* Кнопки для JS */
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 8px 14px;
+  margin-right: 8px;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: #e9f3ff;
+  color: #32415f;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background: #d8e9ff;
+  transform: translateY(-1px);
+}
+
+/* Блок для смены цвета */
+#colorBox {
+  margin-top: 12px;
+  padding: 16px;
+  border-radius: 16px;
+  background: #ffeef5;
+  font-size: 0.95rem;
+}
+
+/* Ссылки */
+a {
+  color: #5b6ccc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 24px;
+  font-size: 0.8rem;
+  color: #8a88a6;
+  border-top: 1px solid #ecebfb;
+  padding-top: 8px;
+}
